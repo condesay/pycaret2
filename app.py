@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 from pycaret import *
+from pycaret.classification import *
 
 # Afficher le titre de l'application
 st.title("Application de traitement de langage naturel")
